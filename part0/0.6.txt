@@ -1,0 +1,4 @@
+Browser -> Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+Note over browser: When we hit the submit button browser sends a POST request to the servers end point
+
+Server -> Browser: HTTP status code 201, with response {"message":"note created"}
